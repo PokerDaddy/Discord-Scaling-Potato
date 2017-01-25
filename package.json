@@ -16,7 +16,7 @@
     "url": "https://github.com/PokerDaddy/Discord-Scaling-Potato/issues"
   },
   "homepage": "https://github.com/PokerDaddy/Discord-Scaling-Potato#readme",
-  "dependencies": {
-    "discord": "^0.8.2"
+  "dependencies": 
+    "discord.js": "^11.0.0"
   }
 }
