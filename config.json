@@ -1,0 +1,6 @@
+{
+	"potato" : "PUT ADMIN TOKEN HERE",
+	"discord" : "PUT DISCORD BOT TOKEN HERE",
+	"channel" : "PUT CHANNEL ID HERE",
+	"server" : "PUT SERVER IP HERE (probably `http://localhost:8080`)"
+}

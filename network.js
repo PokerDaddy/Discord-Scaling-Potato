@@ -29,14 +29,11 @@ function login(server, nick) {
   return callback;
 }
 
-function sendMessage(server, session, body) {
+function sendMessage(server, msg) {
   let callback = new SendMessageCallback();
 
   request.post(server + '/send', {
-    json: {
-      token: session.token,
-      body
-    }
+    json: msg
   }, (error, res, body) => {
     if (error) {
       callback.emit('error', error);
